@@ -104,9 +104,9 @@ As mentioned earlier, Silverleaf sunflowers follow a certain life cycle in which
 
 In this model, we will be using a flow chart to visualize the transition and reproductive values for the population of Silverleaf sunflowers in 1 year. Unfortunately, for this biological project, the data for transition probabilities for Silverleaf sunflower species are not yet researched. Due to this, we will assume similar parameters based on the biological literature on American Ginseng by Souther, S. et al. They produced a Lefkovitch matrix using fertility transition probability of going from a 9-month seed to a 21-month seed, 33-month seed to a 45-month seed, 1 leaf seedling to 2 leaf juveniles and onwards to small adults and large adults. Using similar values that they reported, we will make an assumed scientific hypothesis onto our 2 matrices for both populations.
 
-- \(x_{i,t}\): the number of individuals of age \(i\) in year \(t\)
-- \(p_i\): the probability that an age \(i\) individual in year \(t\) survives to year \(t+1\)
-- \(m_i p_0\): the net fertility of the number of age \(i\) individuals in \(t+1\)
+- **xᵢ,ₜ**: the number of individuals of age *i* in year *t*
+- **pᵢ**: the probability that an age *i* individual in year *t* survives to year *t + 1*
+- **mᵢp₀**: the net fertility of the number of age *i* individuals in *t + 1*
 
 To show how all these parameters work together, we will create a flow diagram including transition probabilities that we will assume from the previous biological literature mentioned. This diagram shows proposed/estimated transitional values for probability for a Silverleaf sunflower age model. This is not an accurate representation specifically for Silverleaf sunflowers but a scientifically hypothetical model.
 
