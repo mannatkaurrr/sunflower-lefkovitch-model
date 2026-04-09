@@ -4,6 +4,11 @@
 **MATH 3052 - Mathematical Biology**  
 **Professor Heffernan**
 
+## Project Highlights
+- Built a Lefkovitch matrix model for 2 Silverleaf sunflower populations
+- Compared seed production under different spatial planting parameters
+- Used eigenvalue-based age-structured population modelling
+- Simulated long-term viability and fecundity using Maple
 ---
 
 ## Table of Contents
