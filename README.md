@@ -10,7 +10,19 @@
 - Used eigenvalue-based age-structured population modelling
 - Simulated long-term viability and fecundity using Maple
 ---
+## Impact
 
+This project demonstrates how mathematical biology and eigenvalue analysis can guide real resource decisions such as crop layout and conservation planning. The workflow mirrors industry forecasting: define assumptions → build model → validate → deliver decision insight.
+
+## Skills
+
+- Matrix Algebra
+- Eigenvalues
+- Scientific Computing
+- Modelling & Visualization
+- Maple
+
+  
 ## Table of Contents
 - [Abstract](#abstract)
 - [Introduction & Biology](#introduction--biology)
@@ -239,13 +251,6 @@ Diagram of Lefkovitch matrix taken from Professor Heffernan - Age Structured Mod
 Maple sample code of modelling the seed density on a sunflower's disc using the golden ratio along with diameter is included in the separate file:
 
 **[View Maple Code](maple-code.md)**
-
-### [A7]
-Population A: Age Structured Modelling on Maple
-
-### [A8]
-Population B: Age Structured Modelling on Maple
-
 ---
 
 ## References
