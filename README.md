@@ -10,6 +10,10 @@
 - Used eigenvalue-based age-structured population modelling
 - Simulated long-term viability and fecundity using Maple
 ---
+## Full Report
+
+**[View Final Report PDF](silverleaf-sunflower-report.pdf)**
+
 ## Impact
 
 This project demonstrates how mathematical biology and eigenvalue analysis can guide real resource decisions such as crop layout and conservation planning. The workflow mirrors industry forecasting: define assumptions → build model → validate → deliver decision insight.
