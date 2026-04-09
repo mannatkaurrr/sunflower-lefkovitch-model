@@ -138,29 +138,25 @@ Now to visualize this onto 2 Lefkovitch matrices for each population. Let the fi
 
 ### Sunflower Population A
 
-\[
-\begin{bmatrix}
-0 & 9.7 & 38.8 & 87.3 & 155.2 & 242.5 \\
-0.7 & 0.4 & 0.08 & 0 & 0 & 0 \\
-0 & 0.3 & 0.5 & 0.09 & 0 & 0 \\
-0 & 0 & 0.25 & 0.6 & 0.1 & 0 \\
-0 & 0 & 0 & 0.2 & 0.7 & 0.10 \\
-0 & 0 & 0 & 0 & 0.15 & 0.8
-\end{bmatrix}
-\]
+```text
+[ 0    9.7   38.8   87.3   155.2   242.5 ]
+[ 0.7  0.4   0.08   0      0       0     ]
+[ 0    0.3   0.5    0.09   0       0     ]
+[ 0    0     0.25   0.6    0.1     0     ]
+[ 0    0     0      0.2    0.7     0.10  ]
+[ 0    0     0      0      0.15    0.8   ]
+```
 
 ### Sunflower Population B
 
-\[
-\begin{bmatrix}
-0 & 28.8 & 115.2 & 259.2 & 460.8 & 720 \\
-0.7 & 0.4 & 0.08 & 0 & 0 & 0 \\
-0 & 0.3 & 0.5 & 0.09 & 0 & 0 \\
-0 & 0 & 0.25 & 0.6 & 0.1 & 0 \\
-0 & 0 & 0 & 0.2 & 0.7 & 0.10 \\
-0 & 0 & 0 & 0 & 0.15 & 0.8
-\end{bmatrix}
-\]
+```text
+[ 0    28.8   115.2   259.2   460.8   720 ]
+[ 0.7  0.4    0.08    0       0       0   ]
+[ 0    0.3    0.5     0.09    0       0   ]
+[ 0    0      0.25    0.6     0.1     0   ]
+[ 0    0      0       0.2     0.7     0.10]
+[ 0    0      0       0       0.15    0.8 ]
+```
 
 ---
 
@@ -168,11 +164,11 @@ Now to visualize this onto 2 Lefkovitch matrices for each population. Let the fi
 
 We will be conducting an age-stability sensitive analysis model on Maple to see whether the population A and B of Silverleaf sunflowers are growing or declining in consideration of their spatial parameters. For this analysis, we will be using the same proposed transition values for survival probability as shown above. We will assume the matrices are accurate to our model.
 
-For our analysis, we have used Professor Heffernan's sample Maple code to help us accurately model the age stability. If the age distribution is stable, we will find \( \lambda \) such that \( Lx = \lambda x \) where \( x \) is an eigenvector of \( L \). \( \lambda \) is the biggest, dominant, and real eigenvalue corresponding to the eigenvector.
+For our analysis, we have used Professor Heffernan's sample Maple code to help us accurately model the age stability. If the age distribution is stable, we will find **λ** such that **Lx = λx** where **x** is an eigenvector of **L**. **λ** is the biggest, dominant, and real eigenvalue corresponding to the eigenvector.
 
-If \( \lambda \) is greater than 1, all age classes in a particular population will be continually growing at that rate. If \( \lambda \) is less than 1, all age classes will be considered declining and the population that could possibly go into extinction.
+If **λ** is greater than 1, all age classes in a particular population will be continually growing at that rate. If **λ** is less than 1, all age classes will be considered declining and the population that could possibly go into extinction.
 
-Suppose that each population (A and B) has an initial population includes 50 achene seeds, 40 1-headed sunflowers, 30 2-headed sunflowers, 20 3-headed sunflowers, 10 4-headed sunflowers, 5 5-headed sunflowers. We can represent this as a vector, \(x_0\) for each population.
+Suppose that each population (A and B) has an initial population includes 50 achene seeds, 40 1-headed sunflowers, 30 2-headed sunflowers, 20 3-headed sunflowers, 10 4-headed sunflowers, 5 5-headed sunflowers. We can represent this as a vector, **x₀** for each population.
 
 ---
 
@@ -191,11 +187,6 @@ After 2 season:
 - **Population A produced 557,857.77 seeds**
 - **Population B produced approximately 1.6 million seeds (1.65347388400000*10^6)**
 
-**Population A Maple Results**  
-![Population A Maple Results](images/maple-results-a.png)
-
-**Population B Maple Results**  
-![Population B Maple Results](images/maple-results-b.png)
 
 ---
 
@@ -220,33 +211,23 @@ We want to monitor the population of Silverleaf sunflowers for a couple of years
 ## Appendix
 
 ### [A1]
-This figure displays florets (1,2,3…) spiraling in starting from the center. Each floret is laid out in position by the Golden Ratio, which is equal to \( \phi = 0.618 \). Each block represents seed & and each line of seeds starting from the center to edge represents a floret.
+This figure displays florets (1,2,3…) spiraling in starting from the center. Each floret is laid out in position by the Golden Ratio, which is equal to **φ = 0.618**. Each block represents seed & and each line of seeds starting from the center to edge represents a floret.
 
 ### [A2]
-The golden angle is calculated as 0.618 in the following equation:
+The golden angle is calculated as **0.618** in the following equation:
 
-\[
-\phi = 360(2-s) = 0.618...
-\]
+**φ = 360(2 − s) = 0.618...**
 
-Therefore, sunflower florets follow increments of \( \phi = 0.618 \) degrees when growing.
+Therefore, sunflower florets follow increments of **φ = 0.618** degrees when growing.
 
 ### [A3]
 Zonal structure of floret rows is visualized here in the diagram. Rows 1,2,3 have peripherical spiral forms that will follow each other and equate to the golden ratio (0.618). The radius of the Zone 1 is equal to the sum of the radiuses of Zone 2 and 3.
 
 The formula to represent this relationship is:
 
-\[
-Zone\ 1 = \pi r^2 \phi^2 (2 - \phi^2)
-\]
-
-\[
-Zone\ 2 = Z1(\phi)
-\]
-
-\[
-Zone\ 3 = Z2(\phi)
-\]
+**Zone 1 = πr²φ²(2 − φ²)**  
+**Zone 2 = Z1(φ)**  
+**Zone 3 = Z2(φ)**
 
 ### [A4]
 Pictured on the right, 4-headed Helianthus Agrophyllus, known as Silverleaf sunflowers, a rare perennial herbaceous flower native to the coast of Texas.
@@ -255,20 +236,9 @@ Pictured on the right, 4-headed Helianthus Agrophyllus, known as Silverleaf sunf
 Diagram of Lefkovitch matrix taken from Professor Heffernan - Age Structured Model. Shown below is an age-structured model where \(x_{i,t}\) be the number of individuals of age \(i\) in year \(t\). \(p_i\) be the probability that an age \(i\) individual in year \(t\) survives to year \(t+1\). \(m_i p_0\) be the net fertility of the number of age \(i\) individuals in \(t+1\).
 
 ### [A6]
-Maple sample code of modelling the seed density on a sunflower's disc using the golden ratio along with diameter.
+Maple sample code of modelling the seed density on a sunflower's disc using the golden ratio along with diameter is included in the separate file:
 
-```matlab
-phi = (sqrt(5)-1)/2; % = 0.6180339887499
-
-n = -----;
-
-rho = (0:n-1).^phi;
-theta = (0:n-1)*2*pi*phi;
-
-polar(theta, rho, 'b.');
-title([num2str(n) ' Sunflower Seeds']);
-set(gcf, 'color', 'w');
-```
+**[View Maple Code](maple-code.md)**
 
 ### [A7]
 Population A: Age Structured Modelling on Maple
