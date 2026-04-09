@@ -1,6 +1,6 @@
 # Maple Code
 
-## [A6] Maple sample code of modelling the seed density on a sunflower's disc using the golden ratio along with diameter
+## Code of modelling the seed density on a sunflower's disc using the golden ratio along with diameter
 
 ```matlab
 phi = (sqrt(5)-1)/2; % = 0.6180339887499
